@@ -6,11 +6,16 @@ public class ImgRes {
     @SerializedName("image")
     private String Image;
 
-
     @SerializedName("response")
     private String Response;
 
+    @SerializedName("nopol")
+    private String nopol;
+
     public String getResponse() {
         return Response;
+    }
+    public String getNopol() {
+        return nopol;
     }
 }
